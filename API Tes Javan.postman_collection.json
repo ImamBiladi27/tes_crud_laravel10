@@ -1,0 +1,409 @@
+{
+	"info": {
+		"_postman_id": "e1fc3106-6239-482e-b440-926e6257bdae",
+		"name": "API Tes Javan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23725953",
+		"_collection_link": "https://blue-firefly-724000.postman.co/workspace/baru~2b76edd5-3f6f-4aad-a22f-d4323056592d/collection/23725953-e1fc3106-6239-482e-b440-926e6257bdae?action=share&source=collection_link&creator=23725953"
+	},
+	"item": [
+		{
+			"name": "GetData",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Sukses",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/keluarga/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"keluarga",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 04:01:31 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 04:01:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"nama\": \"Budi\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": null,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 2,\n        \"nama\": \"Farah\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": null,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 3,\n        \"nama\": \"Hani\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": null,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 4,\n        \"nama\": \"Ani\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 5,\n        \"nama\": \"Dani\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 6,\n        \"nama\": \"Eva\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 2,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 7,\n        \"nama\": \"Fahri\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 2,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 8,\n        \"nama\": \"Gita\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 3,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 9,\n        \"nama\": \"Hafiz\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 3,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 10,\n        \"nama\": \"Ivan\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 4,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 11,\n        \"nama\": \"Jihan\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 4,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 12,\n        \"nama\": \"Kemal\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 5,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 13,\n        \"nama\": \"Lia\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 5,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 14,\n        \"nama\": \"Mira\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 6,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 15,\n        \"nama\": \"Nino\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 6,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 16,\n        \"nama\": \"Oscar\",\n        \"jenis_kelamin\": \"L\",\n        \"orang_tua_id\": 7,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 17,\n        \"nama\": \"Putri\",\n        \"jenis_kelamin\": \"P\",\n        \"orang_tua_id\": 7,\n        \"created_at\": null,\n        \"updated_at\": null\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				}
+			},
+			"response": [
+				{
+					"name": "Sukses",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "Budi Setiawan",
+									"type": "text"
+								},
+								{
+									"key": "jenis_kelamin",
+									"value": "L",
+									"type": "text"
+								},
+								{
+									"key": "orang_tua_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/keluarga",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"keluarga"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 04:05:17 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 04:05:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"nama\": \"Budi Setiawan\",\n    \"jenis_kelamin\": \"L\",\n    \"orang_tua_id\": \"1\",\n    \"updated_at\": \"2023-12-01T04:05:17.000000Z\",\n    \"created_at\": \"2023-12-01T04:05:17.000000Z\",\n    \"id\": 20\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Data",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Sukses",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "id",
+								"value": "20",
+								"type": "text"
+							},
+							{
+								"key": "nama",
+								"value": "Budi Wjiaya",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"id\":20,\"nama\":\"Budi Satyawan\",\r\n\"jenis_kelamin\":\"L\",\r\n\"orang_tua_id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/keluarga/20",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"keluarga",
+								"20"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "20",
+									"disabled": true
+								},
+								{
+									"key": "nama",
+									"value": "Budi Wijaya",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 07:25:24 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 07:25:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 20,\n    \"nama\": \"Budi Satyawan\",\n    \"jenis_kelamin\": \"L\",\n    \"orang_tua_id\": 1,\n    \"created_at\": \"2023-12-01T04:05:17.000000Z\",\n    \"updated_at\": \"2023-12-01T07:25:24.000000Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "delete data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/keluarga/?id=21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"keluarga",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "21"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sukses delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/keluarga/21",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"keluarga",
+								"21"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 07:31:02 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 01 Dec 2023 07:31:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Family member deleted\"\n}"
+				}
+			]
+		}
+	]
+}
